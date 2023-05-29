@@ -1,5 +1,0 @@
-#increment date by 1 day
-import pandas as pd
-startdate = "08/08/2023"
-enddate = pd.to_datetime(startdate) + pd.DateOffset(months=1)
-print(enddate)
